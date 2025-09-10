@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 
-import { client } from "@/lib/hono";
+import { client } from "@/lib/hone";
 
 export const useGetImages = () => {
   const query = useQuery({
