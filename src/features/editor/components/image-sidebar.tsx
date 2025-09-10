@@ -46,7 +46,9 @@ export const ImageSidebar = ({ editor, activeTool, onChangeActiveTool }: ImageSi
           onClientUploadComplete={(res) => {
             editor?.addImage(res[0].url);
           }}
+          disabled={isLoading}
         />
+
       </div>
       {isLoading && (
         <div className="flex items-center justify-center flex-1">
