@@ -16,7 +16,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "canva-clone-ali.vercel.app",
+        hostname: "creativio.vercel.app",
       },
     ],
   },
