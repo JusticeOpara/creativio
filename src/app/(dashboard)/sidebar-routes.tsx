@@ -35,7 +35,8 @@ export const SidebarRoutes = () => {
           <div className="px-3">
             <Button
               onClick={() => mutation.mutate()}
-              disabled={mutation.isPending}
+               disabled={true} // force disable for now
+              // disabled={mutation.isPending}
               className="w-full rounded-xl border-none hover:bg-white hover:opacity-75 transition"
               variant="outline"
               size="lg"
@@ -58,7 +59,7 @@ export const SidebarRoutes = () => {
       <ul className="flex flex-col gap-y-1 px-3">
         <SidebarItem href={pathname} icon={CreditCard} label="Billing" onClick={onClick} />
         <SidebarItem
-          href="mailto:support@example.com"
+          href="mailto:justiceopara33@gmail.com"
           icon={MessageCircleQuestion}
           label="Get Help"
         />

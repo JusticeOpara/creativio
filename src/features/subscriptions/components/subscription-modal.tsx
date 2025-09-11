@@ -69,7 +69,8 @@ export const SubscriptionModal = () => {
           <Button
             className="w-full"
             onClick={() => mutation.mutate()}
-            disabled={mutation.isPending}
+            // disabled={mutation.isPending}
+             disabled={true} // force disable for now
           >
             Upgrade
           </Button>
