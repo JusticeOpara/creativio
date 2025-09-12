@@ -6,7 +6,7 @@ Creativio is a **feature-rich graphic design SaaS platform** built with **Next.j
 
 ## 📸 Demo
 
-🎥 Live Demo: ![Alt text](./public/creativio-recording.mov)
+🎥 Live Demo: ![Creativio Demo](./public/creativio-recording.gif)
 
 ## ✨ Features
 
