@@ -4,6 +4,10 @@ Creativio is a **feature-rich graphic design SaaS platform** built with **Next.j
 
 ---
 
+## 📸 Demo
+
+🎥 Live Demo: ![Alt text](./public/creativio-recording.mov)
+
 ## ✨ Features
 
 ### 🛠️ Graphic Editor
@@ -47,7 +51,7 @@ Creativio is a **feature-rich graphic design SaaS platform** built with **Next.j
 * **Database**: [Postgres](https://neon.tech/) (NeonDB)
 * **ORM**: [DrizzleORM](https://orm.drizzle.team/)
 * **Auth**: [Auth.js (NextAuth v5)](https://authjs.dev/)
-* **Payments**: [Stripe](https://stripe.com/)
+* **Payments**: [PayStack](https://paystack.com/)
 * **AI**: [Replicate](https://replicate.com)
 * **UI**: [TailwindCSS](https://tailwindcss.com/) + [Shadcn UI](https://ui.shadcn.com/)
 
