@@ -35,8 +35,7 @@ export const SidebarRoutes = () => {
           <div className="px-3">
             <Button
               onClick={() => mutation.mutate()}
-               disabled={true} // force disable for now
-              // disabled={mutation.isPending}
+              disabled={mutation.isPending}
               className="w-full rounded-xl border-none hover:bg-white hover:opacity-75 transition"
               variant="outline"
               size="lg"

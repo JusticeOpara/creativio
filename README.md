@@ -89,9 +89,9 @@ GOOGLE_CLIENT_SECRET=your_google_client_secret
 GITHUB_CLIENT_ID=your_github_client_id
 GITHUB_CLIENT_SECRET=your_github_client_secret
 
-# Stripe
-STRIPE_SECRET_KEY=your_stripe_secret_key
-STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret
+# PayStack
+PAYSTACK_SECRET_TEST_KEY=
+PAYSTACK_PUBLIC_KEY=
 
 # Replicate
 REPLICATE_API_TOKEN=your_replicate_api_token
